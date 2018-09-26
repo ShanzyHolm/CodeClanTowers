@@ -33,7 +33,7 @@ public class DiningRoomTest {
     @Test
     public void canRemoveGuest() {
         diningRoom.addGuest(guest);
-        diningRoom.removeGuest();
+        diningRoom.removeGuest(guest);
         assertEquals(0, diningRoom.guestCount());
     }
 }

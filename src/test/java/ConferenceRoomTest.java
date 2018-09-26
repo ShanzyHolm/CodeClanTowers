@@ -42,7 +42,7 @@ public class ConferenceRoomTest {
     @Test
     public void canRemoveGuestsFromRoom() {
         conferenceRoom.addGuest(guest);
-        conferenceRoom.removeGuest();
+        conferenceRoom.removeGuest(guest);
         assertEquals(0, conferenceRoom.guestCount());
     }
 }

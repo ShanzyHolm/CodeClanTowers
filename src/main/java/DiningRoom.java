@@ -22,7 +22,8 @@ public class DiningRoom {
         this.guests.add(guest);
     }
 
-    public void removeGuest() {
-        this.guests.remove(0);
+    public void removeGuest(Guest guest) {
+        int i = this.guests.indexOf(guest);
+        this.guests.remove(i);
     }
 }
