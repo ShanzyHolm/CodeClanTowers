@@ -24,7 +24,7 @@ public class HotelTest {
 
     @Test
     public void getHotelName() {
-        assertEquals("The Kitty Kat Hotel", hotel.getName());
+        assertEquals("The KodeKlan Kitty Kat Hotel", hotel.getName());
     }
 
     @Test
